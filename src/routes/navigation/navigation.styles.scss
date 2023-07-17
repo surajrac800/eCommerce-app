@@ -1,0 +1,53 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-right: 100px;
+  background-color:white;
+  color:black;
+  font-family:serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  // box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  .sectionOne,
+  .sectionTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .sectionOne .navLinks h2{
+     color:blue;
+  }
+  .sectionTwo {
+    width: 7%;
+    margin-right: 20px;
+  }
+  .logo {
+    font-family: cursive;
+    color:#1F74BA;
+  }
+  .navLinks {
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    gap: 1rem;
+  }
+  .navItem {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    .avatar {
+      width: 40px;
+      margin-left: 30px;
+      margin-right: 8px;
+    }
+  }
+}
